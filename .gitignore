@@ -1,0 +1,32 @@
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# OS
+.DS_Store
+.thumbnail
+Desktop.ini
+
+# IDE
+.vscode
+.idea
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# compilations
+dist
+local
+coverage
+
+# Misc
+manifest/**
+.history
+.eslintResults.json
