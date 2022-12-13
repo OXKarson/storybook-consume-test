@@ -44,7 +44,7 @@ export const Header = ({
             />
           </g>
         </svg>
-        <h1>Acme: {hasSharedData('cxo-env-config')}</h1>
+        <h1>Acme: {hasSharedData('cxo-env-config').toString()}</h1>
       </div>
       <div>
         {user ? (
