@@ -10,6 +10,8 @@ type User = {
 export const Page: React.VFC = () => {
   const [user, setUser] = useState<User>();
 
+  console.log("resulting user and lakjsdflkajsdflkj asldkjf ", React, useState);
+
   return (
     <article>
       <Header
