@@ -2,12 +2,21 @@
   "compilerOptions": {
     "declaration": true,
     "outDir": "./dist/",
+    "allowJs": false,
     "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
-    "module": "es6",
-    "target": "es5",
-    "jsx": "react",
-    "moduleResolution": "node",
-    "esModuleInterop": true
-  }
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": false,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": ["./src", "./jest-setup.ts", "./custom.d.ts"]
 }
